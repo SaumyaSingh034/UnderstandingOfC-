@@ -15,7 +15,21 @@ namespace LearningC#
         Console.WriteLine($"Hello {data}");
         data = 899.9999;
         Console.WriteLine($"Hello {data}");
+
+         Console.WriteLine(sum(5,5));
+        Practice p = new Practice();
+        p.getDisplay();
         
     }
 }
+ // Adding methods same as Java
+    public void getDisplay(){
+        Console.WriteLine("Hi I am From Display");
+    }
+    
+    public static int sum(int a , int b){
+        return a+b;
+    }
+
+
 }
